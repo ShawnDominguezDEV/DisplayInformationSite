@@ -1,0 +1,41 @@
+<!---
+    CIS 3360 - Lucian
+    Project 1 - Texas State Staff Application
+    Computer Information Systems
+    Texas State University
+    Shawn Dominguez
+    Angel Acosta
+    Due 9/26/19
+--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Homepage</title>
+    <link href="css/mystyles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div id="formdiv">
+    <label for ="firstName">First name: </label>
+    <input type="text" name="firstName" id="firstName" required><br>
+    <label for="lastName">Last name: </label>
+    <input type = "text" name="lastName" id="lastName" required><br>
+    <label for="dateOfBirth">Date of birth: </label>
+    <input type="date" name="dateOfBirth" id="dateOfBirth" required><br>
+    <label for="email">Email: </label>
+    <input type="email" name="email" id="email" required><br>
+    <label for="password">Password: </label>
+    <input type="password" name="password" id="password" required><br>
+    <label for="confPassword">Retype password: </label>
+    <input type="password" name="confPassword" id="confPassword" required><br>
+
+    <button id="btnDisplay">Submit</button>
+    <button id="btnClear">Clear</button>
+</div>
+
+<p id="result"></p>
+<script src="js/myJavaScript.js"></script>
+
+</body>
+</html>
